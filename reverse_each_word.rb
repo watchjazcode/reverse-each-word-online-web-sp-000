@@ -4,7 +4,7 @@
 #word.reverse = reverse each element
 #each throws away elements therefore, you have to create a new array to hold elements
 
-def return_each_word(sentence)
+def reverse_each_word(sentence)
   flipped = []
   sentence.split(" ").each do |word|
     flipped << word.reverse
