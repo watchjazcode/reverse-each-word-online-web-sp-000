@@ -5,9 +5,11 @@
 #each throws away elements therefore, you have to create a new array to hold elements
 
 def return_each_word(sentence)
+  flipped = []
   sentence.split(" ").each do |word|
-    word.reverse
+    flipped << word.reverse
   end
+  flipped.join(" ")
 end
 
 #lines 14-16 becomes an array, therefore, .join should be done after end
