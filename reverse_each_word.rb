@@ -1,4 +1,4 @@
 def return_each_word(sentence)
-  sentence.split(" ")
-  return sentence.each
+  sentence.split(" ").each do ||
+
 end
