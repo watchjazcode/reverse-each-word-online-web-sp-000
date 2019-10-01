@@ -9,7 +9,7 @@ def return_each_word(sentence)
   end
 end
 
-def return_each_word_with_collect(sentence)
+def reverse_each_word_with_collect(sentence)
   sentence.split(" ").collect do |word|
     word.reverse
   end
